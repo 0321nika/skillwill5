@@ -1,0 +1,35 @@
+#text{
+    display: block;
+}
+.quiz{
+    border: 2px solid;
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    padding: 10px;
+}
+.question, .question2{
+    padding: 40px;
+}
+.question h1{
+    color: red;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(131, 123, 123);
+}
+.answer1,.answer2,.answer3,.answer4,.answer5,.answer6,.answer7,.answer8{
+    padding: 7px 15px;
+    border-radius:10px ;
+    background-color: rgb(90, 165, 230);
+    color: #fff;
+    cursor: pointer;
+}
+.question2{
+    display: none;
+}
+.question2 span{
+    background-color: bisque;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
